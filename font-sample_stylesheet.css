@@ -1,1 +1,49 @@
 
+body {
+	margin: 50px 100px;
+}
+
+.title, .subtitle {
+	font-family: "Playfair Display";
+}
+
+.title {
+	font-size: 40pt;
+}
+
+.subtitle {
+	font-size: 24pt;
+}
+
+.author, .measurement { 
+	font-family: "Open Sans";
+}
+
+.author {
+	font-size: 14pt;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.ingredient, .instruction {
+	font-family: "Gentium Basic"
+}
+
+.ingredient {
+	font-size: 14pt;
+	width: 160px;
+	height: 30px;
+	display: inline-block;
+}
+
+.instruction {
+	font-size: 14pt;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.measurement {
+	font-size: 12pt;
+	font-variant: small-caps;
+	display: inline-block;
+}
